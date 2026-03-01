@@ -1,0 +1,38 @@
+.page {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  /* Product grid */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+  
+  /* Product card */
+  .card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  

@@ -1,0 +1,19 @@
+.navbar {
+    background: #222222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar nav a:hover {
+    text-decoration: underline;
+  }
+  
